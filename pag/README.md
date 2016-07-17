@@ -1,26 +1,28 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/)
+Primera version .01
+BIENVENIDO (A):
 
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+KANT se especializa en Derecho Migratorio y en la incorporación y administración
 
-## Getting Started
+de Sociedades Anónimas y Fundaciones de Interés Privado, garantizando la
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+satisfacción y confidencialidad de nuestros clientes.
 
-## Bugs and Issues
+Nuestro objetivo es desarrollar una relación a largo plazo con nuestros usuarios,
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
+basada en un trabajo tenaz, confianza, y orientado a resultados. Estamos
 
-## Creator
+comprometidos con brindar excelencia en todos nuestros servicios legales.
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+Nuestro equipo se enfoca en encontrar las soluciones necesarias para que el
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+cliente pueda lograr sus objetivos, al brindar servicios legales efectivos en diversas
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+áreas del derecho, principalmente en temas Corporativos, de Bienes y Raíces,
 
-## Copyright and License
+Impuestos, Litigio, Migración y otros.
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
+Mantenemos una política centrada en las necesidades de nuestros clientes con el
+
+objetivo de ofrecer un servicio personalizado y profesional.
+
+¡Gracias por visitar nuestro portal!
