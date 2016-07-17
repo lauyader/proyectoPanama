@@ -25,30 +25,104 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<!-- Definición del estilo de nav -->
+    <style media="screen">
+        .navbar-inverse {
+            background-color: #80122B
+        }
 
-<style media="screen">
-.navbar-inverse { background-color: #80122B}
-.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #AD0909}
-.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #CC3338}
-.dropdown-menu { background-color: #80122B}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #CC3338}
-.navbar-inverse { background-image: none; }
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
-.navbar-inverse { border-color: #696969}
-.navbar-inverse .navbar-brand { color: #FFFFFF}
-.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
-.navbar-inverse .navbar-nav>li>a { color: #DEDEDE}
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
-.dropdown-menu>li>a { color: #FAFAFA}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+        .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse .navbar-nav>li>a:hover,
+        .navbar-inverse .navbar-nav>li>a:focus {
+            background-color: #AD0909
+        }
 
-</style>
+        .navbar-inverse .navbar-nav>.active>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a:focus {
+            background-color: #CC3338
+        }
+
+        .dropdown-menu {
+            background-color: #80122B
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+            background-color: #CC3338
+        }
+
+        .navbar-inverse {
+            background-image: none;
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+            background-image: none;
+        }
+
+        .navbar-inverse {
+            border-color: #696969
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-brand:hover {
+            color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>li>a {
+            color: #DEDEDE
+        }
+
+        .navbar-inverse .navbar-nav>li>a:hover,
+        .navbar-inverse .navbar-nav>li>a:focus {
+            color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.active>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a:focus {
+            color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse .navbar-nav>.active>a:focus {
+            color: #FFFFFF
+        }
+
+        .dropdown-menu>li>a {
+            color: #FAFAFA
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+            color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a .caret {
+            border-top-color: #999999
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+            border-top-color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a .caret {
+            border-bottom-color: #999999
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+            border-bottom-color: #FFFFFF
+        }
+    </style>
 </head>
 
 <body>
@@ -71,49 +145,58 @@
                 <ul class="nav navbar-nav">
 
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Somos <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#especialidad">Nuestra especialidad</a> </li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Somos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#especialidad">Nuestra especialidad</a> </li>
 
-                        <li><a href="#objetivo">Nuestra objetivo</a> </li>
-                        <li><a href="#equipo"> Nuestra equipo de trabajo</a></li>
-                        <li><a href="#politica">Nuestra política</a> </li>
-                      </ul>
+                            <li><a href="#objetivo">Nuestra objetivo</a> </li>
+                            <li><a href="#equipo"> Nuestra equipo de trabajo</a></li>
+                            <li><a href="#politica">Nuestra política</a> </li>
+                        </ul>
                     </li>
 
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Derecho Migratorio</a>
-                                </li>
-                                <li>
-                                    <a href="#">Constitución y Administración de sociedades y Fundaciones de Interés Privado</a>
-                                </li>
-                                <li>
-                                    <a href="#">Asesoría Fiscal a Empresas y Particulares</a>
-                                </li>
-                                <li>
-                                  <a href="#">Bienes Inmuebles</a>
-                                </li>
-                                <li>
-                                  <a href="#">Litigios</a>
-                                </li>
-                                <li>
-                                  <a href="#">Registro de Marcas y Propiedad Intelectual en Panamá</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#migre">¡Migre a panamà!</a>
-                        </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a data-toggle="modal" data-target="#Dmigratorio" href="#" >Derecho Migratorio</a>
+                            </li>
+                            <li>
+                                <a href="#">Constitución y Administración de sociedades y Fundaciones de Interés Privado</a>
+                            </li>
+                            <li>
+                                <a href="#">Asesoría Fiscal a Empresas y Particulares</a>
+                            </li>
+                            <li>
+                                <a href="#">Bienes Inmuebles</a>
+                            </li>
+                            <li>
+                                <a href="#">Litigios</a>
+                            </li>
+                            <li>
+                                <a href="#">Registro de Marcas y Propiedad Intelectual en Panamá</a>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li>
-                        <a href="#contacto">Contactos</a>
+                        <a data-toggle="modal" data-target="#Mpanama"  href="#Mpanama">¡Migre a panamà!</a>
+                    </li>
+
+                    <li>
+
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactos <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li>  <a href="#contacto">Dirección</a></li>
+                        <li >  <a href="#mapa">Ubicación Google Maps</a></li>
+                      </ul>
                     </li>
                 </ul>
-</div>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -121,8 +204,9 @@
 
     <!-- Full Width Image Header -->
     <header class="header-image">
-      <img  src="../img/kant1.png" alt="">
-      <!--
+        <img src="../img/kant1.png" alt="">
+
+        <!--
         <div class="headline">
             <div class="container">
 
@@ -137,16 +221,12 @@
         <hr class="featurette-divider" id="especialidad">
 
         <!-- First Featurette -->
-        <div class="featurette"  >
-            <img  class="featurette-image img-circle img-responsive pull-right" src="../img/somos.jpg">
-            <h2 class="featurette-heading" >Kant
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/somos.jpg">
+            <h2 class="featurette-heading">Kant
                 <span class="text-muted">se especializa</span>
             </h2>
-            <p class="lead">  en Derecho Migratorio y en la incorporación y administración
-
-de Sociedades Anónimas y Fundaciones de Interés Privado, garantizando la
-
-satisfacción y confidencialidad de nuestros clientes.</p>
+            <p class="lead"> en Derecho Migratorio y en la incorporación y administración de Sociedades Anónimas y Fundaciones de Interés Privado, garantizando la satisfacción y confidencialidad de nuestros clientes.</p>
         </div>
 
         <hr class="featurette-divider" id="objetivo">
@@ -157,8 +237,7 @@ satisfacción y confidencialidad de nuestros clientes.</p>
             <h2 class="featurette-heading">Nuestro objetivo
                 <span class="text-muted">desarrollar una relación a largo plazo con nuestros usuarios,</span>
             </h2>
-            <p class="lead"> basada en un trabajo tenaz, confianza, y orientado a resultados. Estamos
-comprometidos con brindar excelencia en todos nuestros servicios legales.</p>
+            <p class="lead"> basada en un trabajo tenaz, confianza, y orientado a resultados. Estamos comprometidos con brindar excelencia en todos nuestros servicios legales.</p>
         </div>
 
         <hr class="featurette-divider" id="equipo">
@@ -171,14 +250,14 @@ comprometidos con brindar excelencia en todos nuestros servicios legales.</p>
             </h2>
             <p class="lead">necesarias para que el cliente pueda lograr sus objetivos, al brindar servicios legales efectivos en diversas áreas del derecho, principalmente en temas Corporativos, de Bienes y Raíces, Impuestos, Litigio, Migración y otros.</p>
         </div>
-      <hr class="featurette-divider" id="politica">
+        <hr class="featurette-divider" id="politica">
         <!-- Cuarto Featurette -->
         <div class="featurette" id="services">
             <img class="featurette-image img-circle img-responsive pull-left" src="../img/Consultoria-recursos-humanos2.jpg">
             <h2 class="featurette-heading">Mantenemos una política
                 <span class="text-muted">centrada en las necesidades de nuestros clientes,</span>
             </h2>
-            <p class="lead">  con el objetivo de ofrecer un servicio personalizado y profesional.</p>
+            <p class="lead"> con el objetivo de ofrecer un servicio personalizado y profesional.</p>
         </div>
 
 
@@ -186,39 +265,107 @@ comprometidos con brindar excelencia en todos nuestros servicios legales.</p>
 
 
         <hr class="featurette-divider" id="contacto">
-          <!-- Cuarto Featurette -->
-          <div class="featurette" id="services">
-              <img class="featurette-image img-circle img-responsive pull-right" src="../img/contacto.jpg">
-              <h2 class="featurette-heading">Contactos en
+        <!-- Cuarto Featurette -->
+        <div class="featurette" id="services">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/contacto.jpg">
+            <h2 class="featurette-heading">Contactos en
                   <span class="text-muted">Panamá</span>
               </h2>
-              <p class="lead">
-                  Torre Banco Delta, Piso 4 Elvira Mendez St. & Via España #122 <br>
-                  Ciudad de Panamá <br>
-                  Teléfonos: 209-3073 / 6897-7581 <br>
-                  Email: <a href="mailto:info@kant.com.pa?subject=feedback">info@kant.com.pae</a><br>
+            <p class="lead">
+                Torre Banco Delta, Piso 4 Elvira Mendez St. & Via España #122
+                <br> Ciudad de Panamá
+                <br> Teléfonos: 209-3073 / 6897-7581
+                <br> Email: <a href="mailto:info@kant.com.pa?subject=feedback">info@kant.com.pae</a><br>
+                <img width="100" height="50" src="../img/bandera.jpg" alt="" />
 
-                  Poner mapa de google maps
-              </p>
-          </div>
+            </p>
+        </div>
 
 
-          <hr class="featurette-divider">
+        <hr class="featurette-divider" >
 
         <!-- Footer -->
         <footer>
+            <hr class="featurette-divider" id="mapa">
             <div class="row">
-              <div class="col-xs|sm|md|lg-1-12">
-      <h2 align="center" >Ubícanos aquí</h2>
-              </div>
+                <div class="col-xs|sm|md|lg-1-12">
+                    <h2 align="center">Ubicación </h2>
+                </div>
                 <div class="col-lg-12" align="center">
                     <!-- Mapa google -->
-                    <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.884606486455!2d-79.52846828521365!3d8.982764893552957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8e57d06efb9%3A0xf244c8e4c1f2933!2sBanco+Delta!5e0!3m2!1ses-419!2sve!4v1468778747510" width="600" height="450" frameborder="1" style="border:1" allowfullscreen></iframe>                    <p>Copyright &copy; Tu website 2016</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.884606486455!2d-79.52846828521365!3d8.982764893552957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8e57d06efb9%3A0xf244c8e4c1f2933!2sBanco+Delta!5e0!3m2!1ses-419!2sve!4v1468778747510"
+                        width="600" height="450" frameborder="1" style="border:1" allowfullscreen></iframe>
+                    <p>Copyright &copy; Tu website 2016</p>
                 </div>
             </div>
         </footer>
 
     </div>
+
+
+
+<!-- Modales
+<!-- Modal  Derecho Migracion-->
+<div class="modal fade" id="Dmigratorio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Derecho Migratorio</h4>
+      </div>
+      <div class="modal-body">
+        <p>Nuestro Despacho cuenta con un equipo experimentado en el campo migratorio, el<br>
+        cual nos permite ofrecer un excelente servicio a los extranjeros que desean<br>
+        establecer residencia en la república de Panamá. Nosotros trabajamos de la mano<br>
+        con nuestros clientes para brindarles un detallado asesoramiento, durante el<br>
+        proceso de preparación de documentos y solicitud de residencia temporal o<br>
+        permanente, a través de cualquiera de los diversos programas de residencia<br>
+        ofrecidos por las leyes migratorias vigentes de la República de Panamá.<br>
+        Adicionalmente, ofrecemos asesoramiento para la preparación y presentación de<br>
+        los documentos administrativos necesarios para obtener la ciudadanía panameña,<br>
+        hasta la obtención del Pasaporte Panameño.<br>
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Cierrar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Migrar a panama-->
+
+<div class="modal fade" id="Mpanama" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">!Migra a panamá!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Emigrar a Panamá es sencillo. Sólo debes consultar a nuestro excelente grupo de <br>
+        abogados para que te informes sobre las diferentes posibilidades y cuál puede ser <br>
+        la que más se ajuste a tus intereses. <br>
+         <br>
+        Lista de Permisos Migratorios: <br>
+
+        (copiar el listado de <a href="http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas" >http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas</a> poner un acceso directo del permiso de la lista con el que se abre en la <br>
+        web de migración señalando los requisitos para cada permiso).
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Cierrar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
     <!-- /.container -->
 
     <!-- jQuery -->
