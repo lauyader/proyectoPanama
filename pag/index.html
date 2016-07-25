@@ -30,10 +30,10 @@
     <![endif]-->
 
 
-<!-- Definición del estilo de nav -->
+    <!-- Definición del estilo de nav -->
     <style media="screen">
         .navbar-inverse {
-            background-color: #80122B
+            background-color: #80122B t
         }
 
         .navbar-inverse .navbar-nav>.active>a:hover,
@@ -130,11 +130,11 @@
     </style>
 </head>
 
-<body id="inicio">
-
+<body>
+    <div id="inicio"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container" id="inicio2" >
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -143,7 +143,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#inicio">Inicio</a>
+                <a class="navbar-brand" href="#inicio">Kant Abogados-Lawers-Advogado</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -164,28 +164,28 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a data-toggle="modal" data-target="#Dmigratorio" href="#" >Derecho Migratorio</a>
+                                <a href="#derechomigratorio"> Derecho Migratorio </a>
                             </li>
                             <li>
-                                <a href="#">Constitución y Administración de sociedades y Fundaciones de Interés Privado</a>
+                                <a href="#finteresprivado">Constitución y Administración de sociedades y Fundaciones de Interés Privado</a>
                             </li>
                             <li>
-                                <a href="#">Asesoría Fiscal a Empresas y Particulares</a>
+                                <a href="#asesoriafiscal">Asesoría Fiscal a Empresas y Particulares</a>
                             </li>
                             <li>
-                                <a href="#">Bienes Inmuebles</a>
+                                <a href="#bienesinmueble">Bienes Inmuebles</a>
                             </li>
                             <li>
-                                <a href="#">Litigios</a>
+                                <a href="#litigios">Litigios</a>
                             </li>
                             <li>
-                                <a href="#">Registro de Marcas y Propiedad Intelectual en Panamá</a>
+                                <a href="#rmarcas">Registro de Marcas y Propiedad Intelectual en Panamá</a>
                             </li>
                         </ul>
                     </li>
 
                     <li>
-                        <a data-toggle="modal" data-target="#Mpanama"  href="#Mpanama">¡Migre a panamà!</a>
+                        <a href="#mpanama">¡Migre a panamá!</a>
                     </li>
 
                     <li>
@@ -193,44 +193,117 @@
                     </li>
 
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactos <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li>  <a href="#contacto"><i class="fa fa-bus fa-fw" aria-hidden="true"> Dirección</i></a></li>
-                        <li>  <a href="#mapa"> <i class="fa fa-map fa-fw" aria-hidden="true"> Ubicación </i>
-                        </a>
-                        </li>
-<!--
-                        <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="#contacto">Dirección</a></li>
+                            <li> <a href="#mapa"> Ubicación </a>
+                            </li>
+                            <li> <a href="#" onClick="window.open('prueba.html', '_blank')">test</a>
+                            </li>
 
-                         <a class="btn btn-social-icon btn-twitter">
-                            <span class="fa fa-twitter"></span>
-                          </a>
-
-                        </li>-->
-                      </ul>
+                        </ul>
                     </li>
 
 
-                </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class=" btn btn-social-icon btn-twitter ">
+                                <span class="fa fa-twitter"> </span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon btn-facebook   ">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon btn-instagram   ">
+                                <span class="fa fa-instagram"> </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right"  role="search">
+                      <div class="form-group">
+                        <input type="search" class="form-control"  name="q" value=" " placeholder="Buscar">
+                      </div>
+                      <button type="submit" class="btn btn-default" value="Buscar">Enviar</button>
+                    </form>
+
             </div>
-            <!-- /.navbar-collapse -->
+
+
         </div>
         <!-- /.container -->
+
     </nav>
 
-    <!-- Full Width Image Header -->
+    <!-- Full Width Image Header
     <header class="header-image" >
         <img src="../img/kant1.png" alt="">
 
 
-         <!--
-        <div class="headline">
-            <div class="container">
+    </header>-->
 
 
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner" data-interval="1000">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"> <img src="../img/kant1.png" alt=""></div>
+                <div class="carousel-caption">
+                    <h2>Bienvenido</h2>
+
+                </div>
             </div>
-        </div>-->
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"> <img src="../img/canal-de-panamakant.jpg" alt=""></div>
+                <div class="carousel-caption">
+                    <h2>Canal de Panamá</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"> <img src="../img/panama_citykant3.jpg" alt="" </div>
+                    <div class="carousel-caption">
+                        <h2>Cuidad de Panamá</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" data-interval="2000">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+
     </header>
+
+
+
+
+
+
+
+
+
 
     <!-- Page Content -->
     <div class="container">
@@ -261,7 +334,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="../img/asesoria-contable.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/ambiente-de-trabajo.jpg">
             <h2 class="featurette-heading">Nuestro equipo
                 <span class="text-muted">se enfoca en encontrar las soluciones</span>
             </h2>
@@ -281,9 +354,185 @@
         <hr class="featurette-divider">
 
 
-        <hr class="featurette-divider" id="contacto">
+
+
+        <hr class="featurette-divider" id="derechomigratorio" >
+
+        <!-- First Featurette -->
+        <div class="featurette" >
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/pasaporte.jpg">
+            <h2 class="featurette-heading">Derecho migratorio
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+
+                Nuestro Despacho cuenta con un equipo experimentado en el campo migratorio, el cual nos permite ofrecer un excelente servicio a los extranjeros que desean establecer residencia en la república de Panamá. Nosotros trabajamos de la mano con nuestros clientes
+                para brindarles un detallado asesoramiento, durante el proceso de preparación de documentos y solicitud de residencia temporal o permanente, a través de cualquiera de los diversos programas de residencia ofrecidos por las leyes migratorias
+                vigentes de la República de Panamá.
+                <br>
+                <br> Adicionalmente, ofrecemos asesoramiento para la preparación y presentación de los documentos administrativos necesarios para obtener la ciudadanía panameña, hasta la obtención del Pasaporte Panameño.
+                <br>
+                <br>
+
+
+            </p>
+        </div>
+
+        <hr class="featurette-divider" id="finteresprivado">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../img/fundacion.jpg">
+            <h2 class="featurette-heading">Constitución, Administración de
+                <span class="text-muted">Sociedades y Fundaciones de Interés Privado:</span>
+            </h2>
+            <p class="lead">
+
+                La Fundación panameña es una entidad legal que es totalmente independiente de sus creadores, y es diferente a cualquier otra entidad. La Fundación de Interés Privado en Panamá ha sido cuidadosamente diseñada y desarrollado para crear un sistema más flexible,
+                un sistema más moderno y un modelo más asequible, que se va a utilizar a nivel internacional por razones filantrópicas: planificación de patrimonio internacional, la máxima privacidad, anonimato, y protección a los Protectores, Fundadores
+                y beneficiarios de la Fundación. La Fundación panameña es una solución global a un precio asequible, anónima, flexible, privado, un instrumento de planificación patrimonial que puede ser utilizado para mantener activos diversos, tales
+                como empresas, cuentas bancarias, cuentas de inversión, bienes raíces, fideicomisos o cualquier otro tipo de activo: real , tangibles o intangibles. Una Fundación de Interés Privado de Panamá es una alternativa cada vez más generalizada
+                y viable a un fideicomiso, donde los activos son independientes de los fundadores y gestionados por otros, ofreciendo la certeza de la existencia y el estado de una entidad con personalidad jurídica propia. Aspectos más destacados de la
+                Fundación de Interés Privado de Panamá:No está sujeto a ningún tipo de imposición, evaluación o gravamen en la República de Panamá cuando se utilizan para las transacciones fuera de la República.
+                <br>
+                <br> En consecuencia, están exentos del impuesto sobre la renta, impuestos sobre la propiedad, impuestos sobre bienes inmuebles, los impuestos sobre sucesiones, el impuesto de timbre y los impuestos de ventas No se requiere presentar las declaraciones
+                anuales de ingresos o de los informes financieros
+                <br>
+                <br> La Fundación puede (no habitualmente) llevar a cabo cualquier tipo de derecho civil o de las transacciones comerciales, en cualquier parte del mundo y en cualquier moneda.
+                <br>
+                <br> Los miembros del Consejo de Fundación no tiene que ser Fundadores Fundación de otra jurisdicción puede cambiar su domicilio a Panamá y continuar existiendo como Fundaciones de Interés Privado de Panamá, siguiendo pautas sencillas.
+            </p>
+        </div>
+        <hr class="featurette-divider" id="asesoriafiscal">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/fiscal.jpg">
+            <h2 class="featurette-heading">Asesoría Fiscal a
+                <span class="text-muted">Empresas y Particulares:</span>
+            </h2>
+            <p class="lead">
+
+
+
+
+                El departamento Fiscal de KANT ofrece servicios de asesoramiento permanente o específico en materia tributaria nacional e internacional a empresas españolas y extranjeras, a grupos multinacionales y a personas físicas.
+                <br>
+                <br> Una organización matricial, unida a la calidad y experiencia del equipo de profesionales que la integran, sitúan a esta práctica en una posición excepcional para ofrecer las soluciones que demanda el actual contexto empresarial.
+                <br>
+                <br> La dimensión del área tributaria y la capacidad que posee KANT de adaptarse al cliente han favorecido la diversificación del Departamento Fiscal en distintas líneas especializadas en función del componente técnico del servicio y del sector
+                económico en el que se opere.
+
+
+            </p>
+        </div>
+
+
+        <hr class="featurette-divider" id="bienesinmueble">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../img/binmuebles2.jpg">
+            <h2 class="featurette-heading">Bienes
+                <span class="text-muted">inmuebles</span>
+            </h2>
+            <p class="lead">
+
+                Nuestra firma cuenta con una amplia experiencia en transacciones de bienes raíces, asesorando a clientes individuales en la compra, venta y arrendamiento debienes inmuebles. Así mismo brindamos consultoría profesional a promotores en la construcción y
+                desarrollo de proyectos inmobiliarios en la ciudad de Panamá y el interior del país.
+                <br>
+                <br> Nuestro equipo de abogados mantiene una especialización en asesoría e incorporación de régimen de propiedad horizontal y desarrollo de proyectos inmobiliarios a largo plazo.
+                <br>
+                <br> Asesoramos a nuestros clientes en todo lo relacionado al derecho de propiedad, en cuanto a su dominio, posesión, uso y goce. Este servicio incluye el trámite de procedimientos de adjudicaciones y titulación de derechos posesorios en la
+                República de Panamá.
+
+
+            </p>
+        </div>
+
+        <hr class="featurette-divider" id="litigios">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/litigio.jpg">
+            <h2 class="featurette-heading">Litigios
+                <span class="text-muted"> </span>
+            </h2>
+            <p class="lead">
+
+                Nuestra firma ofrece asesoría y representación legal en todo tipo de litigios y procesos judiciales que involucran la jurisdicción panameña, ante los distintos órganos jurisdiccionales de la República de Panamá.
+                <br>
+                <br> A diferencia de muchos despachos de abogados en Panamá, estamos en capacidad de atender causas de nuestros clientes fuera de la Ciudad de panamá en los Juzgado de Circuito y Tribunales Superiores de Justicia situados en el interior del
+                país. Nuestra firma ofrece asesoría y representación legal en todo tipo de litigios y procesos judiciales que involucran la jurisdicción panameña, ante los distintos órganos jurisdiccionales de la República de Panamá.
+                <br>
+                <br> A diferencia de muchos despachos de abogados en Panamá, estamos en capacidad de atender causas de nuestros clientes fuera de la Ciudad de panamá en los Juzgado de Circuito y Tribunales Superiores de Justicia situados en el interior del
+                país.
+
+
+            </p>
+        </div>
+
+
+
+
+        <hr class="featurette-divider" id="rmarcas">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/registro.jpg">
+            <h2 class="featurette-heading">Registro de Marcas y
+                <span class="text-muted"> Propiedad Intelectual en Panamá:</span>
+            </h2>
+            <p class="lead">
+
+                Debido a su privilegiada posición geográfica y a la existencia de la Zona Libre de Colon (considerada entre una de las zonas libres más grandes del mundo), la República de Panamá se ha convertido en uno de los mayores centros de servicios financieros
+                a nivel mundial.
+                <br>
+                <br> Por esta razón, Panamá funciona adicionalmente como un sitio estratégico para el registro de marcas y patentes, esto debido a que una vez registrada una marca en Panamá, su dueño podría rastrear cualquier imitación y así legalmente impedir
+                que dichas marcas sean re exportadas y comercializadas al mercado a través de la Zona Libre de Colon.
+                <br>
+                <br> Los requisitos básicos para el Registro de una marca en Panamá son los siguientes:
+                <br>
+
+
+
+           * Poder especial a favor de nuestra firma. (Nuestro Despacho  proporcionará este documento).<br>
+           * Clasificación de productos y servicios que protegerá la marca, de acuerdo con la Clasificación Internacional de Productos y Servicios. <br>
+           * Muestra de etiquetas de la marca (si hubiese diseño).<br>
+
+
+
+            </p>
+        </div>
+
+        <!-- Migrar a panama-->
+        <hr class="featurette-divider" id="mpanama">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../img/banderapanama.jpg">
+            <h2 class="featurette-heading">¡Migre a
+                <span class="text-muted">panamá!</span>
+            </h2>
+            <p class="lead">
+                Es sencillo. Sólo debes consultar a nuestro excelente grupo de
+                abogados para que te informes sobre las diferentes posibilidades y cuál puede ser
+                la que más se ajuste a tus intereses.
+                <br>
+                <br> Lista de Permisos Migratorios:
+                <br> (copiar el listado de <a href="http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas">http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas</a> poner un acceso directo del permiso de la lista con el que
+                se abre en la web de migración señalando los requisitos para cada permiso).
+            </p>
+        </div>
+<br>
+<br>
+
+        <hr class="featurette-divider"  id="contacto">
+        <br>
+        <br>
+
         <!-- Cuarto Featurette -->
-        <div class="featurette" id="services">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="../img/contacto.jpg">
             <h2 class="featurette-heading">Contactos en
                   <span class="text-muted">Panamá</span>
@@ -293,7 +542,8 @@
                 Torre Banco Delta, Piso 4 Elvira Mendez St. & Via España #122
                 <br> Ciudad de Panamá
                 <br> Teléfonos: 209-3073 / 6897-7581
-                <br> Email: <a href="mailto:info@kant.com.pa?subject=feedback">info@kant.com.pae</a><br>
+                <br> Email: <a href="mailto:info@kant.com.pa?subject=feedback">info@kant.com.pae</a>
+                <br>
                 <br> <a href="#mapa">Ubícanos en el mapa de google</a>
 
 
@@ -301,7 +551,7 @@
         </div>
 
 
-        <hr class="featurette-divider" >
+        <hr class="featurette-divider">
 
         <!-- Footer -->
         <footer>
@@ -323,64 +573,32 @@
 
 
 
-<!-- Modales
+    <!-- Modales
 <!-- Modal  Derecho Migracion-->
-<div class="modal fade" id="Dmigratorio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Derecho Migratorio</h4>
-      </div>
-      <div class="modal-body">
-        <p>Nuestro Despacho cuenta con un equipo experimentado en el campo migratorio, el<br>
-        cual nos permite ofrecer un excelente servicio a los extranjeros que desean<br>
-        establecer residencia en la república de Panamá. Nosotros trabajamos de la mano<br>
-        con nuestros clientes para brindarles un detallado asesoramiento, durante el<br>
-        proceso de preparación de documentos y solicitud de residencia temporal o<br>
-        permanente, a través de cualquiera de los diversos programas de residencia<br>
-        ofrecidos por las leyes migratorias vigentes de la República de Panamá.<br>
-        Adicionalmente, ofrecemos asesoramiento para la preparación y presentación de<br>
-        los documentos administrativos necesarios para obtener la ciudadanía panameña,<br>
-        hasta la obtención del Pasaporte Panameño.<br>
-      </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Cierrar</button>
+    <div class="modal fade" id="Dmigratorio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Derecho Migratorio</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Emigrar a Panamá es sencillo. Sólo debes consultar a nuestro excelente grupo de abogados para que te informes sobre las diferentes posibilidades y cuál puede ser la que más se ajuste a tus intereses.
+                        <br>
+                        <br> Lista de Permisos Migratorios:
+                        <br> (copiar el listado de <a href="http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas">http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas</a> poner un acceso directo del permiso de la lista
+                        con el que se abre en la web de migración señalando los requisitos para cada permiso).
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cierrar</button>
 
-      </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 
-<!-- Migrar a panama-->
-
-<div class="modal fade" id="Mpanama" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">!Migra a panamá!</h4>
-      </div>
-      <div class="modal-body">
-        <p>Emigrar a Panamá es sencillo. Sólo debes consultar a nuestro excelente grupo de <br>
-        abogados para que te informes sobre las diferentes posibilidades y cuál puede ser <br>
-        la que más se ajuste a tus intereses. <br>
-         <br>
-        Lista de Permisos Migratorios: <br>
-
-        (copiar el listado de <a href="http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas" >http://www.migracion.gob.pa/index.php/permisos-y-requisitos-para-visas</a> poner un acceso directo del permiso de la lista con el que se abre en la <br>
-        web de migración señalando los requisitos para cada permiso).
-      </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Cierrar</button>
-
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
@@ -393,55 +611,33 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-      <!-- Script para el Scroll Suave -->
-        <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links in navbar + footer link
-          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    <!-- Script para el Scroll Suave -->
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-          // Prevent default anchor click behavior
-          event.preventDefault();
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-          // Store hash
-          var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 900, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-            });
-          });
-        })
-        </script>
-
-
-            <script>
-            $(document).ready(function(){
-              // Add smooth scrolling to all links in navbar + footer link
-              $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-              // Prevent default anchor click behavior
-              event.preventDefault();
-
-              // Store hash
-              var hash = this.hash;
-
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 900, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
                 });
-              });
-            })
-            </script>
+            });
+        })
+    </script>
+
+
+
 
 </body>
 
